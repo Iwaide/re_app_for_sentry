@@ -16,6 +16,7 @@ This README guides you through setting up the project, including Sentry integrat
      docker-compose build
      docker-compose run --rm app bundle install
      docker-compose run --rm app bundle exec rake db:create
+     docker-compose run --rm app bundle exec rake db:migrate
      docker-compose up
      ```
 
