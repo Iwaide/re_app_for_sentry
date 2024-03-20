@@ -30,3 +30,11 @@ This README guides you through setting up the project, including Sentry integrat
 - Below is an example of an error you might encounter:
 
   ![Representing error](image.png)
+
+## PR
+PR: https://github.com/getsentry/sentry-ruby/pull/2278
+
+To ensure this issue is fixed, please replace the relevant line in your Gemfile with the following:
+```ruby
+gem 'sentry-rails',  git: 'https://github.com/Iwaide/sentry-ruby.git', branch: 'iwaide/fix-activerecord-subscriber'
+```
